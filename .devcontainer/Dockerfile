@@ -19,7 +19,7 @@ RUN apt-get update \
 && systemctl restart docker
 
 #create global virtual environment using python standard library tools of virtualenv
-ARG USER="codespace"
+ARG USER="polorumpus"
 ARG VENV_PATH="/home/${USER}/venv"
 COPY requirements.txt /tmp/
 COPY Makefile /tmp/
